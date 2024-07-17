@@ -37,6 +37,7 @@ async function connectToDatabase() {
   }
 }
 
+// Connect to Azure SQL Database
 connectToDatabase().then(() => {
 
 
